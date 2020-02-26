@@ -46,8 +46,8 @@ $ mvn clean verify -Ddriver=firefox
 The test results will be recorded in the `target/site/serenity/index.html` file.
 
 ### Troubleshooting
-Make sure the driver and the browser are compatible. [Currently compatible with chromedriver 78]
-If your settings.xml has a different repository configured, maven will not be able to download files. 
+	Make sure the driver and the browser are compatible. [Currently compatible with chromedriver 78].
+	If your settings.xml has a different repository configured, maven will not be able to download files. 
 
 
 

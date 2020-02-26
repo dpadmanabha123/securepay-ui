@@ -38,16 +38,20 @@ JavaFaker is a library that can be used to generate a wide array of real-looking
 ## Executing the tests
 To run the sample project, you can either just run the `CucumberTestSuite` test runner class, or run either `mvn verify` from the command line.
 
-By default, the tests will run using Chrome. You can run them in Firefox by overriding the `driver` system property, e.g.
+By default, the tests will run using Chrome. 
 ```Json
-$ mvn clean verify -Ddriver=firefox
+$ mvn clean verify
 ```
+To rum them in Firefox/IE override the `driver` system property [Have not tested this!!]
 
-The test results will be recorded in the `target/site/serenity/index.html` file.
+### Reporting
+	+ The test results will be recorded in the `target/site/serenity/index.html` file.
+	+ Screenshots are available by default for all steps executed.
 
 ### Troubleshooting
-	Make sure the driver and the browser are compatible. [Currently compatible with chromedriver 78].
-	If your settings.xml has a different repository configured, maven will not be able to download files. 
+	+ Make sure the driver and the browser are compatible. [Currently compatible with chromedriver 78].
+	+ If your settings.xml has a different repository configured, maven will not be able to download files.
+	Have only 
 
 
 

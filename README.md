@@ -1,4 +1,4 @@
-# Selenium-Cucumber with Serinity 
+# Selenium-Cucumber with Serenity 
 
 
 ## Choice of Tool

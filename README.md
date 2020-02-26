@@ -9,7 +9,7 @@ Serenity is an easy to use, plug and play framework which provides seemless inte
 	Easy Browser compatibility
 	Easy Parallel Execution - just a click [configuration] away.
 	Page Object are often very minimal, storing just the object of the page in itself.
-	The real advantage is in the use of many small, stable classes, each of which focuses on a single job. This application of the _Single Responsibility Principle_ goes a long way to making the test code more stable, easier to understand, and easier to maintain.
+	The real advantage is in the use of many small, stable classes, each of which focuses on a single job, this application of the Single Responsibility Principle goes a long way to making the test code more stable, easier to understand, and easier to maintain.
 
 ### The project directory structure
 The project has build scripts for Maven, and follows the standard directory structure:

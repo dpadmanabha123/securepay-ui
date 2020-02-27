@@ -14,6 +14,7 @@ public class SecurePayHomePageAction extends UIInteractionSteps {
     @Step("Select Support from the Home Page Menu and then click on Contact Us ")
     public void selectContactUs() {
         $(SecurePayHomePage.SUPPORT_MENU_ITEM).click();
+        waitForElement();
         $(SecurePayHomePage.SUPPORT_MENU_ITEM_CHILD_CONTACT_US).click();
 
     }

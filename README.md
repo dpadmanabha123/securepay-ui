@@ -46,7 +46,7 @@ To rum them in Firefox/IE override the `driver` system property [Have not tested
 
 ### Reporting
 	+ The test results will be recorded in the `target/site/serenity/index.html` file.
-	+ Screenshots are available by default for all steps executed.
+	+ Screenshots are available by default for all steps executed. [ Click on Feature and then select the link under "Scenario details"
 
 ### Troubleshooting
 	+ Make sure the driver and the browser are compatible. [Currently compatible with chromedriver 78].
